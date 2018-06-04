@@ -21,6 +21,6 @@ class NavigationController extends Controller
 
     public function test(Request $request)
     {
-        return view('test');
+        return view('home');
     }
 }
